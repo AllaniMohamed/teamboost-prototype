@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables (secret keys, API keys)
+.env
+
+# SQLite database
+teamboost.db
+*.sqlite3
+
+# Flask instance folder
+instances/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs & temp
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# FAISS / vector store (if persisted locally)
+*.faiss
+*.pkl
+
+# RQ worker files (optional)
+*.pid
