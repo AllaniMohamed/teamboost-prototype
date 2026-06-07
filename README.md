@@ -1,6 +1,6 @@
 # TeamBoostAI — Mini System-Aware PR Bottleneck Investigator
-By Allani Mohamed
-Hours spent: Around 24 hours
+By Allani Mohamed<br>
+Hours spent: Around 24 hours<br>
 LLM Provider: Google Gemini (gemma-4-31b-it)
 
 ----
@@ -40,8 +40,8 @@ System:
 
 ## System Architecture
 
-See  `ARCHITECTURE.md`  for full diagram.
-High-level flow:
+See  `ARCHITECTURE.md`  for full diagram. <br>
+High-level flow: <br>
 Client → Flask API → Redis Queue → RQ Worker → Agent Workflow → DB + FAISS → LLM → Persist Investigation
 
 ----
